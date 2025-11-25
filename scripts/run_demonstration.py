@@ -1,3 +1,7 @@
+import time
+from classes.alert_priority_queue import AlertPriorityQueue
+from classes.alert_class import Alert
+
 def run_demonstration():
     alert_queue = AlertPriorityQueue()
     print("=== Emergency Alert System Demonstration ===")
